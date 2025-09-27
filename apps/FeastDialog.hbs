@@ -1,0 +1,44 @@
+<section class="bf-wrap">
+  <header class="bf-head">
+    <h2>{{t "BF.UI.MakeFeast"}}</h2>
+  </header>
+
+  <div class="bf-columns">
+    <div class="bf-left">
+      <table class="bf-table">
+        <thead>
+          <tr>
+            <th>{{t "BF.UI.Actor"}}</th>
+            <th>{{t "BF.UI.Name"}}</th>
+            <th>{{t "BF.UI.Flavors"}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each partyIngredients}}
+            <tr data-payload='{{json this}}' data-action="select">
+              <td>{{actorName}}</td>
+              <td>{{ing.name}}</td>
+              <td>
+                {{#each ing.flavors}}
+                  <span class="bf-chip bf-{{this.kind}}">{{../t (concat "BF.Flavor." this.kind)}}{{#if (gt this.strength 1)}}×{{this.strength}}{{/if}}</span>
+                {{/each}}
+              </td>
+            </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="bf-right">
+      <div class="bf-panel">
+        <h3>{{t "BF.UI.Result"}}</h3>
+        <div class="bf-result">—</div>
+        <div class="bf-actions">
+          <button class="bf-btn" data-action="cook">{{t "BF.UI.Roll"}}</button>
+          <button class="bf-btn bf-primary bf-next" data-action="distribute" disabled>{{t "BF.UI.Distribute"}}</button>
+        </div>
+        <p class="bf-note">{{t "BF.UI.NoteSelect"}}</p>
+      </div>
+    </div>
+  </div>
+</section>

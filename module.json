@@ -1,0 +1,53 @@
+{
+  "id": "beast-feast",
+  "title": "Beast Feast (Foundryborne minimal)",
+  "description": "Automate Beast Feast downtime: harvest, blooms, cook, distribute, cookbook. No Berry, no compendiums.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "You & Copilot",
+      "url": "https://github.com/yourname"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/feast.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "uk",
+      "name": "Українська",
+      "path": "lang/uk.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.10.0"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "beast-feast": {
+      "schemaVersion": 1
+    }
+  },
+  "url": "https://github.com/yourname/beast-feast",
+  "manifest": "https://raw.githubusercontent.com/yourname/beast-feast/main/module.json",
+  "download": "https://github.com/yourname/beast-feast/archive/refs/heads/main.zip"
+}

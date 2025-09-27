@@ -1,0 +1,58 @@
+{
+  "BF": {
+    "Setting": {
+      "PartyTier": {
+        "Name": "Party Tier (for familiar tokens)",
+        "Hint": "Used to grant tokens when cooking a familiar flavor profile."
+      }
+    },
+    "UI": {
+      "Ingredients": "Ingredients",
+      "Harvest": "Harvest",
+      "Bloom": "Gather Bloom",
+      "MakeFeast": "Make a Feast",
+      "Cookbook": "Cookbook",
+      "NoIngredients": "No ingredients yet.",
+      "Remove": "Remove",
+      "Count": "Count",
+      "OK": "OK",
+      "Actor": "Actor",
+      "Name": "Name",
+      "Flavors": "Flavors",
+      "Result": "Result",
+      "Roll": "Roll",
+      "Distribute": "Distribute",
+      "MealRating": "Meal Rating",
+      "RollHistory": "Roll history",
+      "NoteSelect": "Select ingredients (rows) on the left, then Roll.",
+      "SplitTotal": "Split total"
+    },
+    "Flavor": {
+      "sweet": "Sweet",
+      "salty": "Salty",
+      "bitter": "Bitter",
+      "sour": "Sour",
+      "savory": "Savory",
+      "weird": "Weird"
+    },
+    "Name": {
+      "Ingredient": "Ingredient",
+      "Bloom": "Bloom"
+    },
+    "Msg": {
+      "HarvestedN": "Harvested {n} ingredient(s).",
+      "BloomAdded": "Bloom ingredient added.",
+      "UseHarvestButton": "Use the Harvest button on an actor.",
+      "UseBloomButton": "Use the Bloom button on an actor.",
+      "SelectIngredients": "Select at least one ingredient.",
+      "SplitExact": "The sum must equal the Meal Rating.",
+      "DistributionDone": "Distribution complete."
+    },
+    "Chat": {
+      "Cooked": "Cooked a meal"
+    },
+    "Roll": {
+      "Bloom": "Bloom flavor roll"
+    }
+  }
+}
