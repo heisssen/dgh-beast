@@ -2,52 +2,20 @@
   "id": "beast-feast",
   "title": "Beast Feast (Foundryborne minimal)",
   "description": "Automate Beast Feast downtime: harvest, blooms, cook, distribute, cookbook. No Berry, no compendiums.",
-  "version": "0.1.0",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "authors": [
-    {
-      "name": "You & Copilot",
-      "url": "https://github.com/yourname"
-    }
-  ],
-  "esmodules": [
-    "scripts/main.js"
-  ],
-  "styles": [
-    "styles/feast.css"
-  ],
+  "version": "1.0.0",
+  "compatibility": { "minimum": "12", "verified": "12" },
+  "authors": [{ "name": "heisssen", "url": "https://github.com/heisssen" }],
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/feast.css"],
   "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "uk",
-      "name": "Українська",
-      "path": "lang/uk.json"
-    }
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "uk", "name": "Українська", "path": "lang/uk.json" }
   ],
   "relationships": {
-    "systems": [
-      {
-        "id": "daggerheart",
-        "type": "system",
-        "compatibility": {
-          "minimum": "0.10.0"
-        }
-      }
-    ]
+    "systems": [{ "id": "daggerheart", "type": "system", "compatibility": { "minimum": "0.10.0" } }]
   },
-  "flags": {
-    "beast-feast": {
-      "schemaVersion": 1
-    }
-  },
-  "url": "https://github.com/yourname/beast-feast",
-  "manifest": "https://raw.githubusercontent.com/heisssen/dgh-beast/refs/tags/1.0/module.json",
-  "download": "https://github.com/heisssen/dgh-beast/releases/tag/1.0"
+  "flags": { "beast-feast": { "schemaVersion": 1 } },
+  "url": "https://github.com/heisssen/dgh-beast",
+  "manifest": "https://raw.githubusercontent.com/heisssen/dgh-beast/1.0/module.json",
+  "download": "https://github.com/heisssen/dgh-beast/archive/refs/tags/1.0.zip"
 }
